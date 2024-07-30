@@ -1,0 +1,96 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAI HANUMAN</title>
+    <style>
+        /* Style for the text */
+        .corner-text {
+            position: fixed;
+            top: 1px; /* Adjust the distance from the top */
+            right: 10px; /* Adjust the distance from the right */
+            font-size: 18px;
+            color: #ffffff00; /* Text color */
+            background-color: rgba(207, 15, 15, 0.992); /* Background color */
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+  .btn-neon-yellow,
+  .btn-neon-red {
+      display: inline-block;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 10px; /* Changed to make the button square */
+      margin: 10px; /* Added margin to create a gap between buttons */
+      transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+
+  .btn-neon-yellow {
+      background-color: #b4ff00; /* Light Neon Green Color */
+      color: #000;
+  }
+
+  .btn-neon-red {
+      background-color: #b4ff00; /* Light Neon Green Color */
+      color: #000;
+  }
+
+  .btn-neon-yellow:hover,
+  .btn-neon-yellow:active,
+  .btn-neon-yellow:focus {
+      background-color: #45e00d; /* Lighter shade on hover/click/focus */
+      color: #000;
+      box-shadow: 0 0 10px rgb(255, 0, 0); /* Neon glow effect */
+  }
+
+  .btn-neon-red:hover,
+  .btn-neon-red:active,
+  .btn-neon-red:focus {
+      background-color: #e00d53; /* Lighter shade on hover/click/focus */
+      color: #000;
+      box-shadow: 0 0 10px rgb(47, 0, 255); /* Neon glow effect */
+  }
+
+  .card {
+      background-image: url('https://em360tech.com/sites/default/files/styles/cropper_main_image/public/2023-12/best-hackers-in-the-world.jpeg.webp?itok=0gr22Z9S'); /* Add the URL of your background image */
+      background-size: cover;
+      color: white; /* Set text color to contrast with the background */
+  }
+
+  .bottom-marquee {
+      position: fixed;
+      bottom: 0;
+      background: linear-gradient(to right, #ff0080, #8000ff); /* Gradient background color */
+      color: #fff; /* White text color */
+      padding: 10px;
+      animation: marqueeAnimation 15s linear infinite,opacityAnimation 15s linear infinite; /* Adjust the animation properties as needed */
+      font-size: 20px; /* Increase font size for coding symbols */
+      white-space: nowrap; /* Prevent text from wrapping to the next line */
+  }
+
+  @keyframes marqueeAnimation {
+      0% {
+          transform: translateX(100%);
+      }
+      100% {
+          transform: translateX(-100%);
+      }
+  }
+</style>
+
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+      <div class="card card-body text-center">
+          <h1><i class="fas fa-code fa-3x"></i></h1> <!-- Change fa-user to fa-code -->
+          <p>Create an account or login</p>
+          <a href="/users/register" class="btn btn-primary btn-block btn-neon-red">Register</a>
+          <a href="/users/login" class="btn btn-secondary btn-block btn-neon-yellow">Login</a>
+      </div>
+  </div>
+</div>
+
+<!-- Bottom Marquee -->
+<div class="bottom-marquee">&#128187; &#128187; &#128187; &#128187; &#128187; Made by RAJAT - All Rights Reserved 2024 &#128187; &#128187; &#128187; &#128187; &#128187;</div>
